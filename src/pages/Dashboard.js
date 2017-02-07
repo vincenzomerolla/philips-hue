@@ -15,11 +15,11 @@ import Tiles from 'grommet/components/Tiles';
 import Tile from 'grommet/components/Tile';
 
 
-import NavSidebar from './NavSidebar';
+import NavSidebar from '../components/NavSidebar';
 
 import { xyzToRgb, rgbToXyz } from '../utils';
 
-class App extends Component {
+export default class Dashboard extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -206,15 +206,9 @@ class App extends Component {
                 })
               }
             </Box>
-
-
-
-
           </Article>
         </Split>
       </Container>
     );
   }
 }
-
-export default App;

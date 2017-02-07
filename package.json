@@ -1,5 +1,5 @@
 {
-  "name": "light-switcher",
+  "name": "philips-hue",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -54,7 +54,7 @@
     "axios": "^0.15.3",
     "color": "^1.0.3",
     "grommet": "^1.2.1",
-    "huejay": "^1.5.0",
+    "huejay": "github:vincenzomerolla/huejay",
     "localforage": "^1.4.3",
     "react": "^15.4.2",
     "react-color": "^2.11.1",
